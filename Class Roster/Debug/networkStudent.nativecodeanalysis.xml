@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<DEFECTS>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>C:\Users\Sean Kenney\OneDrive\Visual Studio\Projects\Class Roster - Copy\Class Roster\</FILEPATH>
+      <FILENAME>networkStudent.cpp</FILENAME>
+      <LINE>7</LINE>
+      <COLUMN>16</COLUMN>
+    </SFA>
+    <DEFECTCODE>26495</DEFECTCODE>
+    <DESCRIPTION>Variable 'NetworkStudent::degree' is uninitialized. Always initialize a member variable (type.6).</DESCRIPTION>
+    <FUNCTION>NetworkStudent::{ctor}</FUNCTION>
+    <DECORATED>??0NetworkStudent@@QAE@XZ</DECORATED>
+    <FUNCLINE>7</FUNCLINE>
+    <ADDITIONALINFO>
+      <targetSymbol>NetworkStudent::degree</targetSymbol>
+    </ADDITIONALINFO>
+    <PATH></PATH>
+  </DEFECT>
+</DEFECTS>

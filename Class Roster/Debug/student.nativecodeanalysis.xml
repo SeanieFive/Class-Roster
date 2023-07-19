@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<DEFECTS>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>C:\Users\Sean Kenney\OneDrive\Visual Studio\Projects\Class Roster - Copy\Class Roster\</FILEPATH>
+      <FILENAME>student.cpp</FILENAME>
+      <LINE>7</LINE>
+      <COLUMN>9</COLUMN>
+    </SFA>
+    <DEFECTCODE>26495</DEFECTCODE>
+    <DESCRIPTION>Variable 'Student::studentAge' is uninitialized. Always initialize a member variable (type.6).</DESCRIPTION>
+    <FUNCTION>Student::{ctor}</FUNCTION>
+    <DECORATED>??0Student@@QAE@XZ</DECORATED>
+    <FUNCLINE>7</FUNCLINE>
+    <ADDITIONALINFO>
+      <targetSymbol>Student::studentAge</targetSymbol>
+    </ADDITIONALINFO>
+    <PATH></PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>C:\Users\Sean Kenney\OneDrive\Visual Studio\Projects\Class Roster - Copy\Class Roster\</FILEPATH>
+      <FILENAME>student.cpp</FILENAME>
+      <LINE>7</LINE>
+      <COLUMN>9</COLUMN>
+    </SFA>
+    <DEFECTCODE>26495</DEFECTCODE>
+    <DESCRIPTION>Variable 'Student::numDays' is uninitialized. Always initialize a member variable (type.6).</DESCRIPTION>
+    <FUNCTION>Student::{ctor}</FUNCTION>
+    <DECORATED>??0Student@@QAE@XZ</DECORATED>
+    <FUNCLINE>7</FUNCLINE>
+    <ADDITIONALINFO>
+      <targetSymbol>Student::numDays</targetSymbol>
+    </ADDITIONALINFO>
+    <PATH></PATH>
+  </DEFECT>
+</DEFECTS>

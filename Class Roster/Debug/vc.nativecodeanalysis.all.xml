@@ -1,0 +1,298 @@
+﻿<?xml version="1.0" encoding="utf-8"?><DEFECTS><DEFECT>
+    <SFA>
+      <FILEPATH>C:\Users\Sean Kenney\OneDrive\Visual Studio\Projects\Class Roster - Copy\Class Roster\</FILEPATH>
+      <FILENAME>networkStudent.cpp</FILENAME>
+      <LINE>7</LINE>
+      <COLUMN>16</COLUMN>
+    </SFA>
+    <DEFECTCODE>26495</DEFECTCODE>
+    <DESCRIPTION>Variable 'NetworkStudent::degree' is uninitialized. Always initialize a member variable (type.6).</DESCRIPTION>
+    <FUNCTION>NetworkStudent::{ctor}</FUNCTION>
+    <DECORATED>??0NetworkStudent@@QAE@XZ</DECORATED>
+    <FUNCLINE>7</FUNCLINE>
+    <ADDITIONALINFO>
+      <targetSymbol>NetworkStudent::degree</targetSymbol>
+    </ADDITIONALINFO>
+    <PATH></PATH>
+  </DEFECT><DEFECT>
+    <SFA>
+      <FILEPATH>C:\Users\Sean Kenney\OneDrive\Visual Studio\Projects\Class Roster - Copy\Class Roster\</FILEPATH>
+      <FILENAME>roster.cpp</FILENAME>
+      <LINE>53</LINE>
+      <COLUMN>130</COLUMN>
+    </SFA>
+    <DEFECTCODE>6001</DEFECTCODE>
+    <DESCRIPTION>Using uninitialized memory 'degree'.</DESCRIPTION>
+    <FUNCTION>main</FUNCTION>
+    <DECORATED>main</DECORATED>
+    <FUNCLINE>14</FUNCLINE>
+    <PROBABILITY>1</PROBABILITY>
+    <RANK>3</RANK>
+    <CATEGORY>
+      <RULECATEGORY>mspft</RULECATEGORY>
+    </CATEGORY>
+    <PATH>
+      <SFA>
+        <FILEPATH>C:\Users\Sean Kenney\OneDrive\Visual Studio\Projects\Class Roster - Copy\Class Roster\</FILEPATH>
+        <FILENAME>roster.cpp</FILENAME>
+        <LINE>16</LINE>
+        <COLUMN>65</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\Sean Kenney\OneDrive\Visual Studio\Projects\Class Roster - Copy\Class Roster\</FILEPATH>
+        <FILENAME>roster.cpp</FILENAME>
+        <LINE>17</LINE>
+        <COLUMN>25</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\Sean Kenney\OneDrive\Visual Studio\Projects\Class Roster - Copy\Class Roster\</FILEPATH>
+        <FILENAME>roster.cpp</FILENAME>
+        <LINE>18</LINE>
+        <COLUMN>34</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\Sean Kenney\OneDrive\Visual Studio\Projects\Class Roster - Copy\Class Roster\</FILEPATH>
+        <FILENAME>roster.cpp</FILENAME>
+        <LINE>19</LINE>
+        <COLUMN>37</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\Sean Kenney\OneDrive\Visual Studio\Projects\Class Roster - Copy\Class Roster\</FILEPATH>
+        <FILENAME>roster.cpp</FILENAME>
+        <LINE>20</LINE>
+        <COLUMN>6</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\Sean Kenney\OneDrive\Visual Studio\Projects\Class Roster - Copy\Class Roster\</FILEPATH>
+        <FILENAME>roster.cpp</FILENAME>
+        <LINE>23</LINE>
+        <COLUMN>8</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\Sean Kenney\OneDrive\Visual Studio\Projects\Class Roster - Copy\Class Roster\</FILEPATH>
+        <FILENAME>roster.cpp</FILENAME>
+        <LINE>24</LINE>
+        <COLUMN>8</COLUMN>
+        <KEYEVENT>
+          <ID>1</ID>
+          <KIND>declaration</KIND>
+          <IMPORTANCE>Essential</IMPORTANCE>
+          <MESSAGE>'degree' is not initialized</MESSAGE>
+        </KEYEVENT>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\Sean Kenney\OneDrive\Visual Studio\Projects\Class Roster - Copy\Class Roster\</FILEPATH>
+        <FILENAME>roster.cpp</FILENAME>
+        <LINE>27</LINE>
+        <COLUMN>14</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\Sean Kenney\OneDrive\Visual Studio\Projects\Class Roster - Copy\Class Roster\</FILEPATH>
+        <FILENAME>roster.cpp</FILENAME>
+        <LINE>35</LINE>
+        <COLUMN>5</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\Sean Kenney\OneDrive\Visual Studio\Projects\Class Roster - Copy\Class Roster\</FILEPATH>
+        <FILENAME>roster.cpp</FILENAME>
+        <LINE>36</LINE>
+        <COLUMN>8</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\Sean Kenney\OneDrive\Visual Studio\Projects\Class Roster - Copy\Class Roster\</FILEPATH>
+        <FILENAME>roster.cpp</FILENAME>
+        <LINE>36</LINE>
+        <COLUMN>15</COLUMN>
+        <KEYEVENT>
+          <ID>2</ID>
+          <KIND>branch</KIND>
+          <IMPORTANCE>Full</IMPORTANCE>
+          <MESSAGE>Enter this loop, (assume 'i&lt;5')</MESSAGE>
+        </KEYEVENT>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\Sean Kenney\OneDrive\Visual Studio\Projects\Class Roster - Copy\Class Roster\</FILEPATH>
+        <FILENAME>roster.cpp</FILENAME>
+        <LINE>37</LINE>
+        <COLUMN>15</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\Sean Kenney\OneDrive\Visual Studio\Projects\Class Roster - Copy\Class Roster\</FILEPATH>
+        <FILENAME>roster.cpp</FILENAME>
+        <LINE>38</LINE>
+        <COLUMN>17</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\Sean Kenney\OneDrive\Visual Studio\Projects\Class Roster - Copy\Class Roster\</FILEPATH>
+        <FILENAME>roster.cpp</FILENAME>
+        <LINE>39</LINE>
+        <COLUMN>18</COLUMN>
+        <KEYEVENT>
+          <ID>3</ID>
+          <KIND>branch</KIND>
+          <IMPORTANCE>Full</IMPORTANCE>
+          <MESSAGE>Skip this loop, (assume 'data.good()' is false)</MESSAGE>
+        </KEYEVENT>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\Sean Kenney\OneDrive\Visual Studio\Projects\Class Roster - Copy\Class Roster\</FILEPATH>
+        <FILENAME>roster.cpp</FILENAME>
+        <LINE>44</LINE>
+        <COLUMN>16</COLUMN>
+        <KEYEVENT>
+          <ID>4</ID>
+          <KIND>branch</KIND>
+          <IMPORTANCE>Full</IMPORTANCE>
+          <MESSAGE>Skip this branch, (assume '==(*output[](8), "SECURITY")' is false)</MESSAGE>
+        </KEYEVENT>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\Sean Kenney\OneDrive\Visual Studio\Projects\Class Roster - Copy\Class Roster\</FILEPATH>
+        <FILENAME>roster.cpp</FILENAME>
+        <LINE>47</LINE>
+        <COLUMN>16</COLUMN>
+        <KEYEVENT>
+          <ID>5</ID>
+          <KIND>branch</KIND>
+          <IMPORTANCE>Full</IMPORTANCE>
+          <MESSAGE>Skip this branch, (assume '==(*output[](8), "SOFTWARE")' is false)</MESSAGE>
+        </KEYEVENT>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\Sean Kenney\OneDrive\Visual Studio\Projects\Class Roster - Copy\Class Roster\</FILEPATH>
+        <FILENAME>roster.cpp</FILENAME>
+        <LINE>50</LINE>
+        <COLUMN>16</COLUMN>
+        <KEYEVENT>
+          <ID>6</ID>
+          <KIND>branch</KIND>
+          <IMPORTANCE>Full</IMPORTANCE>
+          <MESSAGE>Skip this branch, (assume '==(*output[](8), "NETWORK")' is false)</MESSAGE>
+        </KEYEVENT>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\Sean Kenney\OneDrive\Visual Studio\Projects\Class Roster - Copy\Class Roster\</FILEPATH>
+        <FILENAME>roster.cpp</FILENAME>
+        <LINE>53</LINE>
+        <COLUMN>59</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\Sean Kenney\OneDrive\Visual Studio\Projects\Class Roster - Copy\Class Roster\</FILEPATH>
+        <FILENAME>roster.cpp</FILENAME>
+        <LINE>53</LINE>
+        <COLUMN>48</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\Sean Kenney\OneDrive\Visual Studio\Projects\Class Roster - Copy\Class Roster\</FILEPATH>
+        <FILENAME>roster.cpp</FILENAME>
+        <LINE>53</LINE>
+        <COLUMN>37</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\Sean Kenney\OneDrive\Visual Studio\Projects\Class Roster - Copy\Class Roster\</FILEPATH>
+        <FILENAME>roster.cpp</FILENAME>
+        <LINE>53</LINE>
+        <COLUMN>26</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\Sean Kenney\OneDrive\Visual Studio\Projects\Class Roster - Copy\Class Roster\</FILEPATH>
+        <FILENAME>roster.cpp</FILENAME>
+        <LINE>53</LINE>
+        <COLUMN>17</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\Sean Kenney\OneDrive\Visual Studio\Projects\Class Roster - Copy\Class Roster\</FILEPATH>
+        <FILENAME>roster.cpp</FILENAME>
+        <LINE>38</LINE>
+        <COLUMN>23</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\Sean Kenney\OneDrive\Visual Studio\Projects\Class Roster - Copy\Class Roster\</FILEPATH>
+        <FILENAME>roster.cpp</FILENAME>
+        <LINE>37</LINE>
+        <COLUMN>19</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\Sean Kenney\OneDrive\Visual Studio\Projects\Class Roster - Copy\Class Roster\</FILEPATH>
+        <FILENAME>roster.cpp</FILENAME>
+        <LINE>54</LINE>
+        <COLUMN>1</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\Sean Kenney\OneDrive\Visual Studio\Projects\Class Roster - Copy\Class Roster\</FILEPATH>
+        <FILENAME>roster.cpp</FILENAME>
+        <LINE>53</LINE>
+        <COLUMN>130</COLUMN>
+        <KEYEVENT>
+          <ID>7</ID>
+          <KIND>usage</KIND>
+          <IMPORTANCE>Essential</IMPORTANCE>
+          <MESSAGE>'degree' is used, but may not have been initialized</MESSAGE>
+        </KEYEVENT>
+      </SFA>
+    </PATH>
+  </DEFECT><DEFECT>
+    <SFA>
+      <FILEPATH>C:\Users\Sean Kenney\OneDrive\Visual Studio\Projects\Class Roster - Copy\Class Roster\</FILEPATH>
+      <FILENAME>roster.cpp</FILENAME>
+      <LINE>70</LINE>
+      <COLUMN>8</COLUMN>
+    </SFA>
+    <DEFECTCODE>26495</DEFECTCODE>
+    <DESCRIPTION>Variable 'Roster::classRosterArray' is uninitialized. Always initialize a member variable (type.6).</DESCRIPTION>
+    <FUNCTION>Roster::{ctor}</FUNCTION>
+    <DECORATED>??0Roster@@QAE@XZ</DECORATED>
+    <FUNCLINE>70</FUNCLINE>
+    <ADDITIONALINFO>
+      <targetSymbol>Roster::classRosterArray</targetSymbol>
+    </ADDITIONALINFO>
+    <PATH></PATH>
+  </DEFECT><DEFECT>
+    <SFA>
+      <FILEPATH>C:\Users\Sean Kenney\OneDrive\Visual Studio\Projects\Class Roster - Copy\Class Roster\</FILEPATH>
+      <FILENAME>securityStudent.cpp</FILENAME>
+      <LINE>4</LINE>
+      <COLUMN>17</COLUMN>
+    </SFA>
+    <DEFECTCODE>26495</DEFECTCODE>
+    <DESCRIPTION>Variable 'SecurityStudent::degree' is uninitialized. Always initialize a member variable (type.6).</DESCRIPTION>
+    <FUNCTION>SecurityStudent::{ctor}</FUNCTION>
+    <DECORATED>??0SecurityStudent@@QAE@XZ</DECORATED>
+    <FUNCLINE>4</FUNCLINE>
+    <ADDITIONALINFO>
+      <targetSymbol>SecurityStudent::degree</targetSymbol>
+    </ADDITIONALINFO>
+    <PATH></PATH>
+  </DEFECT><DEFECT>
+    <SFA>
+      <FILEPATH>C:\Users\Sean Kenney\OneDrive\Visual Studio\Projects\Class Roster - Copy\Class Roster\</FILEPATH>
+      <FILENAME>softwareStudent.cpp</FILENAME>
+      <LINE>4</LINE>
+      <COLUMN>17</COLUMN>
+    </SFA>
+    <DEFECTCODE>26495</DEFECTCODE>
+    <DESCRIPTION>Variable 'SoftwareStudent::degree' is uninitialized. Always initialize a member variable (type.6).</DESCRIPTION>
+    <FUNCTION>SoftwareStudent::{ctor}</FUNCTION>
+    <DECORATED>??0SoftwareStudent@@QAE@XZ</DECORATED>
+    <FUNCLINE>4</FUNCLINE>
+    <ADDITIONALINFO>
+      <targetSymbol>SoftwareStudent::degree</targetSymbol>
+    </ADDITIONALINFO>
+    <PATH></PATH>
+  </DEFECT><DEFECT>
+    <SFA>
+      <FILEPATH>C:\Users\Sean Kenney\OneDrive\Visual Studio\Projects\Class Roster - Copy\Class Roster\</FILEPATH>
+      <FILENAME>student.cpp</FILENAME>
+      <LINE>7</LINE>
+      <COLUMN>9</COLUMN>
+    </SFA>
+    <DEFECTCODE>26495</DEFECTCODE>
+    <DESCRIPTION>Variable 'Student::studentAge' is uninitialized. Always initialize a member variable (type.6).</DESCRIPTION>
+    <FUNCTION>Student::{ctor}</FUNCTION>
+    <DECORATED>??0Student@@QAE@XZ</DECORATED>
+    <FUNCLINE>7</FUNCLINE>
+    <ADDITIONALINFO>
+      <targetSymbol>Student::studentAge</targetSymbol>
+    </ADDITIONALINFO>
+    <PATH></PATH>
+  </DEFECT></DEFECTS>

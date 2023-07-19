@@ -1,0 +1,14 @@
+﻿  networkStudent.cpp
+  roster.cpp
+  securityStudent.cpp
+  softwareStudent.cpp
+  student.cpp
+  Compiling...
+  Generating Code...
+  Class Roster.vcxproj -> C:\Users\Sean Kenney\OneDrive\Visual Studio\Projects\Class Roster - Copy\Debug\Class Roster.exe
+C:\Users\Sean Kenney\OneDrive\Visual Studio\Projects\Class Roster - Copy\Class Roster\networkStudent.cpp(7): warning C26495: Variable 'NetworkStudent::degree' is uninitialized. Always initialize a member variable (type.6).
+C:\Users\Sean Kenney\OneDrive\Visual Studio\Projects\Class Roster - Copy\Class Roster\roster.cpp(53): warning C6001: Using uninitialized memory 'degree'.
+C:\Users\Sean Kenney\OneDrive\Visual Studio\Projects\Class Roster - Copy\Class Roster\roster.cpp(70): warning C26495: Variable 'Roster::classRosterArray' is uninitialized. Always initialize a member variable (type.6).
+C:\Users\Sean Kenney\OneDrive\Visual Studio\Projects\Class Roster - Copy\Class Roster\securityStudent.cpp(4): warning C26495: Variable 'SecurityStudent::degree' is uninitialized. Always initialize a member variable (type.6).
+C:\Users\Sean Kenney\OneDrive\Visual Studio\Projects\Class Roster - Copy\Class Roster\softwareStudent.cpp(4): warning C26495: Variable 'SoftwareStudent::degree' is uninitialized. Always initialize a member variable (type.6).
+C:\Users\Sean Kenney\OneDrive\Visual Studio\Projects\Class Roster - Copy\Class Roster\student.cpp(7): warning C26495: Variable 'Student::studentAge' is uninitialized. Always initialize a member variable (type.6).

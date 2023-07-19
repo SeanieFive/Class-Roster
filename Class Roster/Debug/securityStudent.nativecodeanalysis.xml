@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<DEFECTS>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>C:\Users\Sean Kenney\OneDrive\Visual Studio\Projects\Class Roster - Copy\Class Roster\</FILEPATH>
+      <FILENAME>securityStudent.cpp</FILENAME>
+      <LINE>4</LINE>
+      <COLUMN>17</COLUMN>
+    </SFA>
+    <DEFECTCODE>26495</DEFECTCODE>
+    <DESCRIPTION>Variable 'SecurityStudent::degree' is uninitialized. Always initialize a member variable (type.6).</DESCRIPTION>
+    <FUNCTION>SecurityStudent::{ctor}</FUNCTION>
+    <DECORATED>??0SecurityStudent@@QAE@XZ</DECORATED>
+    <FUNCLINE>4</FUNCLINE>
+    <ADDITIONALINFO>
+      <targetSymbol>SecurityStudent::degree</targetSymbol>
+    </ADDITIONALINFO>
+    <PATH></PATH>
+  </DEFECT>
+</DEFECTS>
